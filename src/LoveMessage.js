@@ -24,7 +24,7 @@ const LoveMessage = () => {
       <h1>Hamza has send you a message.</h1>
       <input
         type="text"
-        placeholder="Enter your girlfriend's name"
+        placeholder="Enter your name first"
         value={name}
         onChange={(e) => setName(e.target.value)}
         className="input"
